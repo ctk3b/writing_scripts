@@ -4,19 +4,26 @@ echo "Starting language self test "
 echo "=======================================================v0.1=="
 echo "Checking for use of passive voice in "$@
 echo "============================================================="
-./passivevoice.sh $@
+~/Science/writing/scripts/passivevoice.sh $@
 echo " "
 
+echo "============================================================="
 echo "Checking for usage of weasel words in "$@
-./weaselwords.sh $@
+echo "============================================================="
+~/Science/writing/scripts/weaselwords.sh $@
 echo " "
 
+echo "============================================================="
 echo "Checking for for duplicate words in "$@
-./duplicatewords.sh $1
+echo "============================================================="
+~/Science/writing/scripts/duplicatewords.sh $1
 echo " "
 
 echo "============================================================="
+echo "Checking for there/is/are in "$@
 echo "============================================================="
-echo "============================================================="
+~/Science/writing/scripts/thereisare.sh $1
 echo " "
+
+echo "============================================================="
 
