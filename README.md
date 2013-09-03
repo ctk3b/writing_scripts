@@ -12,7 +12,7 @@ If the script (.sh extension) is in the same folder as your text file run:
 
     ./weaselwords.sh  yourpaper.txt
 
-You may have to type in `chmod +x weaselwors.sh` in order to make the scripts
+You may have to type in `chmod +x weaselwords.sh` in order to make the scripts
 executable. 
 
 
